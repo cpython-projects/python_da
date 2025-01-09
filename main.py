@@ -1,4 +1,4 @@
-def input_columns(table):
+def input_columns(table: str) -> str:
     if not isinstance(table, str):
         raise TypeError('table is not a string')
 
